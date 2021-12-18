@@ -9,10 +9,10 @@ main:
     weight: 10
   - name: Research
     url: '#projects'
-    weight: 20
+    weight: 30
   - name: Teaching
     url: '#posts'
-    weight: 30
+    weight: 50
   - name: Contact
     url: '#contact'
-    weight: 40
+    weight: 70
