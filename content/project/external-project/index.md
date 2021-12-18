@@ -1,11 +1,10 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+date: "2016-02-14T00:00:00Z"
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Symmetric biplot
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: A study on dimension reduction and visualization using Correspondence Analysis in Categorical Data
 tags:
 - Demo
-title: External Project
+title: Master's Thesis
 ---
