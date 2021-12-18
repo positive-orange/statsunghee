@@ -1,52 +1,42 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: Ph.D. in Statistics
+    institution: Florida State University
+    year: July 2022 (expected)
+  - course: M.A. in Statistics
+    institution: Dongguk University
+    year: 2016
+  - course: B.S. in Statistics
+    institution: Dongguk University
+    year: 2014
+email: "sp17s@my.fsu.edu"
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Subspace Learning
+- Dimension Reduction Techniques
+- Tensor Data Analysis
+- Multimodal Integration
+- Applications to Medial-Imaging Data
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: Florida State University
+  url: https://stat.fsu.edu
+
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/positive-orange
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/sung-hee-park-85733b155/
 superuser: true
-title: Alice Bighetti (吳恩達)
+title: SungHee Park (박승희)
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Ph.D. candidate on Department of Statistics at FSU. My research interests include subspace learning, dimension reduction techniques, multimodal integration, and tensor data analysis. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_SungHeePark.pdf" "newtab" >}}CV{{< /staticref >}}.
