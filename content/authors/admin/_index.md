@@ -34,7 +34,7 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/sung-hee-park-85733b155/
 superuser: true
-title: SungHee Park (박승희)
+title: SungHee Park
 ---
 
 I am a Ph.D. candidate on Department of Statistics at FSU. My research interests include subspace learning, dimension reduction techniques, multimodal integration, and tensor data analysis. 
