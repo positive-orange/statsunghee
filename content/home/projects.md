@@ -27,10 +27,14 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: EBI
+    tag: EBI
+  - name: GLAA
+    tag: GLAA
+  - name: ST
+    tag: ST
+  - name: CCA
+    tag: CA
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

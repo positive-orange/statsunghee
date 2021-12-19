@@ -2,18 +2,13 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: ECM procedure for the EBI method
   focal_point: Smart
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-slides: example
-summary: An example of using the in-built project page.
+# slides: example
+summary: This paper proposes a new framework of envelope block-wise imputation (EBI) to address block-wise missingness.In the framework of missing imputation, we consider canonical correlations of different data sets and impute the missing parts by estimating canonical correlations.
 tags:
-- Deep Learning
-title: Internal Project
+- EBI
+title: Enveloped Block-wise Imputation
 url_code: ""
 url_pdf: ""
 url_slides: ""
