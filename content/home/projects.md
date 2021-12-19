@@ -31,7 +31,7 @@ content:
     tag: EBI
   - name: GLAA
     tag: GLAA
-  - name: Spline transformation
+  - name: ST
     tag: ST
   - name: CCA
     tag: CA
