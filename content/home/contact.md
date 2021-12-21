@@ -20,7 +20,7 @@ content:
   form:
     provider: formspree
     formspree:
-      id: sp17s@my.fsu.edu
+      id: https://formspree.io/f/xknynllj
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
