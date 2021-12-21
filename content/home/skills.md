@@ -36,6 +36,10 @@ feature:
   icon: server
   icon_pack: fas
   name: C++
+- description: Advanced level
+  icon: file-alt
+  icon_pack: fas
+  name: Latex
 
 
 # Uncomment to use emoji icons.
@@ -52,4 +56,5 @@ feature:
 #  icon_pack: custom
 #  name: Surfing
 #  description: 90%
+
 ---
