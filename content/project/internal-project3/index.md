@@ -2,13 +2,13 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: ECM procedure for the EBI method
+  caption: Performance of B-spline transformation with updating (BTU)
   focal_point: Smart
 # slides: example
-summary: We propose a new framework of envelope block-wise imputation (EBI) to address block-wise missingness. The proposed method considers canonical correlations of multi-source data and impute the missing parts by estimating canonical correlations.
+summary: We consider the problem of choosing a suitable transformation of a multivariate response variable using basis spline method. Based on the appropriate transformation method, we use then apply the envelope method to reduce the dimensions of both predictor and response.
 tags:
-- EBI
-title: Enveloped Block-wise Imputation
+- ST
+title: Spline Transformation with envelope method
 url_code: ""
 url_pdf: ""
 url_slides: ""

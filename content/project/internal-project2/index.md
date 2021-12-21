@@ -2,13 +2,13 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: ECM procedure for the EBI method
+  caption: The scatterplot and the fitted regression line in the Skull and Temporalis Insertion muscle.
   focal_point: Smart
 # slides: example
-summary: We propose a new framework of envelope block-wise imputation (EBI) to address block-wise missingness. The proposed method considers canonical correlations of multi-source data and impute the missing parts by estimating canonical correlations.
+summary: We apply generalized liquid association analysis (GLAA) method to temporomandibular (TMJ) data set.
 tags:
-- EBI
-title: Enveloped Block-wise Imputation
+- GLAA
+title: GLAA for TMJ data
 url_code: ""
 url_pdf: ""
 url_slides: ""
