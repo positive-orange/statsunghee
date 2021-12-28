@@ -15,7 +15,10 @@ url_slides: ""
 url_video: ""
 ---
 
-Assume that two data sets are partially overlapped into the common samples $\mathbf{X}_{1}^{c}$ and 
+Assume that two data sets are partially overlapped into the common samples $X_{k}^{c}, k=1,2$. Then, the unique and missing parts are denoted as $X_{k}^{u}$ and $X_{k}^{\star}, \enspace k=1,2$. Under the Simultaneous Envelope structure, 
 
-$\mathbf{X}_{1}^{c}$ and 
+Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$
 
+#Block math:
+
+#$$ \sigma(t) = \cfrac{1}{1 + e^{-t}} $$
