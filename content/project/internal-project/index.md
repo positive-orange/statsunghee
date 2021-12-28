@@ -15,6 +15,12 @@ url_slides: ""
 url_video: ""
 ---
 
+The Envelope method proposed on the context of the multivariate linear model with a view toward prediction and coefficient estimation. 
+* By using a material variation provides information that is directly relevant to the regression, 
+* while the immaterial variation is essentially irrelevant to the regression and serves to increase estimative variation.
+* A **simultaneous envelope method** proposed for joint reduction of the responses and predictors.
+* The method is simultaneously separating the material and immaterial variation in the responses and in the predictors.
+
 Assume that two data sets are partially overlapped into the common samples where
 * Common part: $\mathbf{X}_{k}^{c}, \enspace k=1,2$, 
 * Unique part: $\hspace{0.8em} \textbf{X}_{k}^{u}, \enspace k=1,2$,
@@ -24,18 +30,6 @@ We use Expectation Conditional-Maximization (ECM) algorithm to update our parame
 
 * First, we **initiate** the envelope parameters from the overlapped (common) samples.
 * Next, we calculate expected values of the missing parts with unique and common samples (**E-step**).
-* Lastly, we update the parameters in **CM-step** until convergence.
+* Lastly, we update the envelope parameters in **CM-step** until convergence.
 
-## Population model
-
-$$\boldsymbol{\Sigma}$$
-
-
-## Simultaneous Envelope Structure
-
-
-Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$
-
-#Block math:
-
-#$$ \sigma(t) = \cfrac{1}{1 + e^{-t}} $$
+For derivations, we assume normality on the data sets.
