@@ -28,8 +28,9 @@ Assume that two data sets are partially overlapped into the common samples where
 
 We use Expectation Conditional-Maximization (ECM) algorithm to update our parameters under the Simultaneous Envelope structure as follows. 
 
-* First, we **initiate** the envelope parameters from the overlapped (common) samples.
-* Next, we calculate expected values of the missing parts with unique and common samples (**E-step**).
-* Lastly, we update the envelope parameters in **CM-step** until convergence.
+* First, **initiate** the envelope parameters from the overlapped (common) samples.
+* Next, calculate expected values of the missing parts with unique and common samples (**E-step**).
+* Lastly, update the envelope parameters in **CM-step** until convergence.
 
-For derivations, we assume normality on the data sets.
+For m.l.e. derivations, we assume normality on the data sets.
+
