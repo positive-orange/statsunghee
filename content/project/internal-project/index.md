@@ -15,11 +15,18 @@ url_slides: ""
 url_video: ""
 ---
 
+## **Motivation**
+
+
+## **Envelope method**
+
 The Envelope method proposed on the context of the multivariate linear model with a view toward prediction and coefficient estimation. 
 * By using a material variation provides information that is directly relevant to the regression, 
 * while the immaterial variation is essentially irrelevant to the regression and serves to increase estimative variation.
 * A **simultaneous envelope method** proposed for joint reduction of the responses and predictors.
 * The method is simultaneously separating the material and immaterial variation in the responses and in the predictors.
+
+## **Envelope Blockwise Imputation (EBI) method**
 
 Assume that two data sets are partially overlapped into the common samples where
 * Common part: $\mathbf{X}_{k}^{c}, \enspace k=1,2$, 
@@ -32,5 +39,7 @@ We use Expectation Conditional-Maximization (ECM) algorithm to update our parame
 * Next, calculate expected values of the missing parts with unique and common samples (**E-step**).
 * Lastly, update the envelope parameters in **CM-step** until convergence.
 
-For m.l.e. derivations, we assume normality on the data sets.
+We assume normality on the data sets for m.l.e. derivations.
+
+
 
