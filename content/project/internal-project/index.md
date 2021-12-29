@@ -33,13 +33,31 @@ Assume that two data sets are partially overlapped into the common samples where
 * Unique part: $\hspace{0.8em} \textbf{X}_{k}^{u}, \enspace k=1,2$,
 * Missing part: $\hspace{0.45em} \textbf{X}_{k}^{\star}, \enspace k=1,2$. 
 
-We use Expectation Conditional-Maximization (ECM) algorithm to update our parameters under the Simultaneous Envelope structure as follows. 
+## **ECM algorithm**
+
+We apply Expectation Conditional-Maximization (ECM) algorithm to update our parameters under the Simultaneous Envelope structure as follows. 
 
 * First, **initiate** the envelope parameters from the overlapped (common) samples.
 * Next, calculate expected values of the missing parts with unique and common samples (**E-step**).
 * Lastly, update the envelope parameters in **CM-step** until convergence.
 
 We assume normality on the data sets for m.l.e. derivations.
+
+![ECM algorithm](algorithm.png)
+
+## **Simulation Results**
+
+![ECM algorithm](output_correlation.png)
+
+![ECM algorithm](output_Frob_norm.png)
+
+![ECM algorithm](output_comparison_SMC.png)
+
+## **Real Data Analysis**
+
+![ECM algorithm](real_correlation.png)
+
+![ECM algorithm](real_corr_plot.png)
 
 
 
