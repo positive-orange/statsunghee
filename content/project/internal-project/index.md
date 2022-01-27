@@ -55,26 +55,46 @@ We assume normality on the data sets for m.l.e. derivations.
 
 ### Simulation results
 
-For comparison, we use six different methods including the EBI method.
-* “**CCA**” uses a standard canonical correlation analysis (CCA) method.
-* “**ENV**” uses the simultaneous envelope method to estimate canonical correlations, corresponding directions, and regression coefficients.
-* “**ORA**” means that we use an oracle data set that has all samples without any missing parts. Thus, the “ORA” estimator could be judged as an ideal case.
-* “**COM**” estimator means we only use common samples to estimate the canonical estimators.
-* “**EBI-2set**” uses the proposed EBI method on two block-wise missing data sets.
+* For comparison, we use six different methods including the EBI method.
+  * “**CCA**” uses a standard canonical correlation analysis (CCA) method.
+  * “**ENV**” uses the simultaneous envelope method to estimate canonical correlations, corresponding directions, and regression coefficients.
+  * “**ORA**” means that we use an oracle data set that has all samples without any missing parts. Thus, the “ORA” estimator could be judged as an ideal case.
+  * “**COM**” estimator means we only use common samples to estimate the canonical estimators.
+  * “**EBI-2set**” uses the proposed EBI method on two block-wise missing data sets.
 
-Also, we use three different scenarios for the covariance structures.
-* "**M1**" assumes identity structures
-* "**M2**" assumes general covariance structures (which have non-overlapping eigen-values on matrix decomposition)
-* "**M3**" assumes randomly generated covariance structures
+* Also, we use three different scenarios for the covariance structures.
+  * "**M1**" assumes identity structures
+  * "**M2**" assumes general covariance structures (which have non-overlapping eigen-values on matrix decomposition)
+  * "**M3**" assumes randomly generated covariance structures
+
+* Table 1 tabulates true and estimated canonical correlations under the unique sample size is 100 and 500. The commomn sample size is 30. 
+
+* The estimators use the oracle samples (ORA) to achieve the closest correlations to the true canonical correlation. In contrast, the canonical correlations that use only common samples (COM) are overestimated than the true canonical correlations. Meanwhile, the EBI method achieves better estimators for the true canonical correlations.
+
 ![ECM algorithm](output_correlation.png)
 
+* The Figure 4 displays Frobenius norm losses of three subplots by the model assumptions (M1, M2, M3).
+
+* The proposed EBI method accomplishes better results in terms of the matrix completion problem. Particularly, (M3) shows a competitive performance of the “EBI” method even with we just considered randomized covariance structure without envelope assumptions.
+
 ![ECM algorithm](output_Frob_norm.png)
+
+* We also compare our proposed EBI method to a structured matrix completion method(Cai, Cai & Zhang,2016) which assumed low-rank structure for only one block-wise missing part.
+
+* The EBI method always attains lower Frobenius norm losses in different dimensions of data sets and true canonical correlations.
 
 ![ECM algorithm](output_comparison_SMC.png)
 
 ### Real data analysis
 
+* We apply the proposed EBI method to impute randomized missing parts of multi-view data on breast cancer from the cancer genome atlas (TCGA) data.
+* We consider two different data sources: gene expression (GE) and DNA methylation (ME).
+* Since the ME data set has 802 complete subjects, we impute missed GE subjects with 348 matched (common) subjects using the EBI and SMC methods and compare the estimated canonical correlations.
+
+* Table 5 represents the standardized Frobenius norm losses of the EBI method and the SMC method with 50 replicates for each envelope dimension. The EBI method achieves signiﬁcantly small losses in different envelope dimensions.
 ![ECM algorithm](real_correlation.png)
+* In Figure 7, we display the first estimated canonical correlations in different envelope dimensions from 2 to 20. The estimated canonical correlation of EBI-1set achieves much closer than the SMC method.
+
 
 ![ECM algorithm](real_corr_plot.png)
 
