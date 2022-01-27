@@ -14,10 +14,10 @@ education:
 email: "sp17s@my.fsu.edu"
 highlight_name: true
 interests:
-- Subspace Learning
+- Multi-modal Integration
+- Matrix Completion
 - Dimension Reduction Techniques
 - Tensor Data Analysis
-- Multimodal Integration
 - Applications to Medial-Imaging Data
 organizations:
 - name: Florida State University
