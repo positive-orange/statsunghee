@@ -5,7 +5,7 @@ image:
   caption: The scatterplot and the fitted regression line in the Skull and Temporalis Insertion muscle.
   focal_point: Smart
 # slides: example
-summary: We apply generalized liquid association analysis (GLAA) method to temporomandibular (TMJ) data set.
+summary: Here, we focus on the sex differences in temporomandibular joint (TMJ) mechanics by applying a modification of the generalized liquid association (GLA) method to determine simultaneously (sparse) linear combinations of the TMJ skull and muscle measurements that exhibit a maximal difference in association by sex.
 tags:
 - GLAA
 title: GLAA for TMJ data
