@@ -55,14 +55,17 @@ We assume normality on the data sets for m.l.e. derivations.
 
 ### Simulation results
 
-For comparison we used other estimators as follows.
+For comparison, we use six different methods including the EBI method.
+* “**CCA**” uses a standard canonical correlation analysis (CCA) method.
+* “**ENV**” uses the simultaneous envelope method to estimate canonical correlations, corresponding directions, and regression coefficients.
+* “**ORA**” means that we use an oracle data set that has all samples without any missing parts. Thus, the “ORA” estimator could be judged as an ideal case.
+* “**COM**” estimator means we only use common samples to estimate the canonical estimators.
+* “**EBI-2set**” uses the proposed EBI method on two block-wise missing data sets.
 
-* CCA-ORA 
-* CCA-COM
-* ENV-ORA
-* ENV-COM
-* EBI-2set
-
+Also, we use three different scenarios for the covariance structures.
+* "**M1**" assumes identity structures
+* "**M2**" assumes general covariance structures (which have non-overlapping eigen-values on matrix decomposition)
+* "**M3**" assumes randomly generated covariance structures
 ![ECM algorithm](output_correlation.png)
 
 ![ECM algorithm](output_Frob_norm.png)
