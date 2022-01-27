@@ -17,6 +17,10 @@ url_video: ""
 
 ## **Motivation**
 
+* Integrating information from multiple sources of the same observation is one way to ensure the power of the analysis under cost constraints. 
+* In the case of the data integration, the small overlapped observations may hinder the feasibility of such integrative analysis. 
+* Matrix completion can be considered to a problem of a missing imputation.
+* We proposed a **multiple block-wise matrix completion method** so called "Envelope Block-wise Imputation (**EBI**)".
 
 ## **Envelope method**
 
@@ -28,12 +32,16 @@ The Envelope method proposed on the context of the multivariate linear model wit
 
 ## **Envelope Blockwise Imputation (EBI) method**
 
+### Block-wise missing structure
+
 Assume that two data sets are partially overlapped into the common samples where
 * Common part: $\mathbf{X}_{k}^{c}, \enspace k=1,2$, 
 * Unique part: $\hspace{0.8em} \textbf{X}_{k}^{u}, \enspace k=1,2$,
-* Missing part: $\hspace{0.45em} \textbf{X}_{k}^{\star}, \enspace k=1,2$. 
+* Missing part: $\hspace{0.45em} \textbf{X}_{k}^{\star}, \enspace k=1,2$.
 
-## **ECM algorithm**
+The block-wise missing structure is displayed in the first figure on this page.
+
+### ECM algorithm
 
 We apply Expectation Conditional-Maximization (ECM) algorithm to update our parameters under the Simultaneous Envelope structure as follows. 
 
@@ -45,7 +53,15 @@ We assume normality on the data sets for m.l.e. derivations.
 
 ![ECM algorithm](algorithm.png)
 
-## **Simulation Results**
+### Simulation results
+
+For comparison we used other estimators as follows.
+
+* CCA-ORA 
+* CCA-COM
+* ENV-ORA
+* ENV-COM
+* EBI-2set
 
 ![ECM algorithm](output_correlation.png)
 
@@ -53,7 +69,7 @@ We assume normality on the data sets for m.l.e. derivations.
 
 ![ECM algorithm](output_comparison_SMC.png)
 
-## **Real Data Analysis**
+### Real data analysis
 
 ![ECM algorithm](real_correlation.png)
 
