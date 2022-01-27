@@ -24,3 +24,8 @@ url_video: ""
 * We figure out the effects of sexual dimorphism on **temporomandibular joint (TMJ)** muscle attachment.
 * We apply a **modiﬁcation of the generalized liquid association (GLA) method** to determine simultaneously (sparse) linear combinations of the TMJ skull and muscle measurements that exhibit a maximal difference in association by sex.
 
+![GLAA algorithm](algorithm.png)
+
+![TMJ variables](table_variable.png)
+
+![GLAA result](plots_diff_dim.png)
